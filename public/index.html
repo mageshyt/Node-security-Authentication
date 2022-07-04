@@ -1,12 +1,18 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>Security Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <b>Hello!</b> Here is your secret:
-    <a href="/secret">Show me!</a>
-    <a href="/auth/google">Google login</a>
-    <a href="/auth/logout">Sign out</a>
+    <div class="flex space-y-10">
+      <a href="/secret">Show me!</a>
+
+      <a href="/auth/google">Google login</a>
+      <a href="/auth/logout">Sign out</a>
+    </div>
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
   </body>
 </html>
