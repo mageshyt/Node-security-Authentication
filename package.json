@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+      "watch": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "helmet": "^5.1.0",
     "http": "^0.0.1-security",
     "https": "^1.0.0",
+    "nodemon": "^2.0.18",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "path": "^0.12.7"
