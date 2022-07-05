@@ -20,4 +20,8 @@ Authorization:
     3.User is redirected to the callback page.
     4.The callback page sends the user back to the website.
 
+Session:
+   The Data is stored in the browser.
+   This is the data that we most often need Session for when we want keep track of state the should't be
+   changed by the user directly 🤫'
 ```
