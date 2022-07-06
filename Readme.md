@@ -53,3 +53,11 @@ Session:
 ```
 
 <img src='https://miro.medium.com/max/1638/1*kUQVUFkZrD8bacC4tbiwNA.png'/>
+
+## CD -> Continuous Delivery
+
+```
+    Continuous Delivery gives you confidence that you code will work in Production
+
+    That your code is in a state that could be released to your users at any point in time.
+```
