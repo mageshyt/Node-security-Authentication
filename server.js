@@ -107,8 +107,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// app.use(checkLoggedIn());sc
-
 https
   .createServer(
     {
@@ -120,7 +118,3 @@ https
   .listen(PORT, () => {
     console.log(`Server is listening on port ${PORT} 🚀 `);
   });
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                    

@@ -50,6 +50,8 @@ Session:
   Continuous integration is a DevOps software development practice
   where developers regularly  merge their code changes into a
   central repository, after which automated builds and tests are run.
+
+  Build -> Test -> Merge -> Deploy
 ```
 
 <img src='https://miro.medium.com/max/1638/1*kUQVUFkZrD8bacC4tbiwNA.png'/>
@@ -60,4 +62,15 @@ Session:
     Continuous Delivery gives you confidence that you code will work in Production
 
     That your code is in a state that could be released to your users at any point in time.
+
+    -> continuous delivery is a DevOps software development practice
+    where developers regularly merge their code changes into a central repository,
+
+    Automatically Release --> Automatically Deploy
+```
+
+### Github Actions
+
+```
+    Github Actions is a tool that allows you to automate the process of creating a release
 ```
